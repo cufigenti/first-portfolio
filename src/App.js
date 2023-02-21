@@ -5,11 +5,13 @@ import { Home } from "./Components/Pages/Home";
 import { About } from "./Components/Pages/About";
 import { Blog } from "./Components/Pages/Blog";
 import { Contact } from "./Components/Pages/Contact";
+import Footer from "./Components/Footer";
+
+
 
 
 
 function App() {
-
 
   return (
     
@@ -27,6 +29,9 @@ function App() {
         </div>
 
       </Router>
+       <Footer />
+     
+       
     </>
   );
 }
